@@ -22,7 +22,7 @@ Method OnProcessInput(pInput As %GlobalBinaryStream, pOutput As %RegisteredObjec
         Set file.Filename=..Folder_filename 
         Do file.CopyFromAndSave(message.Body) 
         
-        Set pOutput = "File "_filename_" uploaded with success"_..Folder_filename
+        Set pOutput = "File "_filename_" uploaded with success to: "_..Folder_filename
         Set tSC=$$$OK
     
     } catch e {
