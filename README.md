@@ -36,5 +36,7 @@ $ docker-compose up -d
 ## How to Run the Sample
 
 Open the [production](http://localhost:52773/csp/irisapp/EnsPortal.ProductionConfig.zen?PRODUCTION=dc.upload.UploadProduction) and start it.
-Now Open Postman or create a multipart request into a form pointing to localhost:9980/ using POST with a form-data file attribute.
+Now Open Postman or create a multipart request into a form pointing to localhost:9980/ using POST with a form-data file attribute. See sample:
+<img source="">
+
 
