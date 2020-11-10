@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="upload-adapter.ZPM">
+  <Document name="upload-service.ZPM">
     <Module>
-      <Name>upload-adapter</Name>
-      <Description>A Intersystems IRIS interoperability custom adapter for file upload from a multipart http request.</Description>
+      <Name>upload-service</Name>
+      <Description>A Intersystems IRIS interoperability custom service for file upload from a multipart http request.</Description>
       <Version>1.0.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
